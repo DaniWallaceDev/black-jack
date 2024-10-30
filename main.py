@@ -1,5 +1,7 @@
 from src.app import player_settings, game, give_me_cards
 
+# this is a change in the file
+
 if __name__ == "__main__":
     dealer = {"name": "dealer",
               "dealer_money": 10000,
