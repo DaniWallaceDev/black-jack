@@ -62,7 +62,7 @@ def while_round(player,table_deck,dealer,min_bet):
     while True:
         print(f"Comienza una nueva ronda señor/a {player["name"]}")
         player, table_deck = taking_cards(player, table_deck)
-        print(f"La casa juega")
+        print(f"The house plays")
         dealer, table_deck = taking_cards(dealer, table_deck)
         ending_round = end_round(player)
         main_ending_round = instant_end(player["value_cards"], dealer["value_cards"])
