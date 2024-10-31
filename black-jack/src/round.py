@@ -70,6 +70,6 @@ def while_round(player,table_deck,dealer,min_bet):
             break
         if ending_round == "otra carta":
             continue
-        if ending_round == "terminar ronda":
+        if ending_round == "end round":
             break
     return player, dealer
